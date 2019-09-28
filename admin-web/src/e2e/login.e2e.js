@@ -1,4 +1,4 @@
-const BASE_URL = `http://localhost:${process.env.PORT || 8000}`;
+const BASE_URL = `http://114.55.38.162:${process.env.PORT || 8000}`;
 
 describe('Login', () => {
   beforeAll(async () => {
