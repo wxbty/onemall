@@ -1,10 +1,10 @@
 spring:
   # datasource
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/mall_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://134.175.146.243:33061/mall_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: 123456
+    password: zhou_huan_1997
   application:
     name: order-impl  # 设置值保证程序启动时不报错，具体的值需要修改[nengjie]
 
@@ -29,7 +29,7 @@ dubbo:
   application:
     name: order-service
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://121.43.168.82:2181
   protocol:
     port: -1
     name: dubbo
