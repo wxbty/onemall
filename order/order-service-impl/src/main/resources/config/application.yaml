@@ -1,10 +1,10 @@
 spring:
   # datasource
   datasource:
-    url: jdbc:mysql://180.167.213.26:13306/mall_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/mall_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: ${MALL_MYSQL_PASSWORD}
+    password: 123456
   application:
     name: order-impl  # 设置值保证程序启动时不报错，具体的值需要修改[nengjie]
 
