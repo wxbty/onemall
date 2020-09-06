@@ -1,4 +1,4 @@
 module.exports = {
-  testURL: 'http://114.55.38.162:8000',
+  testURL: 'http://127.0.0.1:8000',
   preset: 'jest-puppeteer',
 };
